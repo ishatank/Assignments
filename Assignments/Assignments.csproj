@@ -69,6 +69,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assignment1.aspx" />
+    <Content Include="Assignment1Q3.aspx" />
+    <Content Include="Assignment1Q4.aspx" />
     <Content Include="Assignments.aspx" />
     <Content Include="Web.config" />
     <Content Include="Assignment1Q1.aspx" />
@@ -81,6 +83,20 @@
     </Compile>
     <Compile Include="Assignment1.aspx.designer.cs">
       <DependentUpon>Assignment1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment1Q3.aspx.cs">
+      <DependentUpon>Assignment1Q3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment1Q3.aspx.designer.cs">
+      <DependentUpon>Assignment1Q3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment1Q4.aspx.cs">
+      <DependentUpon>Assignment1Q4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment1Q4.aspx.designer.cs">
+      <DependentUpon>Assignment1Q4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Assignments.aspx.cs">
       <DependentUpon>Assignments.aspx</DependentUpon>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="TemperatureConversion.aspx.cs" Inherits="TemperatureConversion" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Assignment1Q2.aspx.cs" Inherits="Assignments.WebForm2" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
