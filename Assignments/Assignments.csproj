@@ -68,9 +68,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ads.xml" />
     <Content Include="Assignment1.aspx" />
     <Content Include="Assignment1Q3.aspx" />
     <Content Include="Assignment1Q4.aspx" />
+    <Content Include="Assignment2.aspx" />
+    <Content Include="Assignment2Q1.aspx" />
+    <Content Include="Assignment2Q2.aspx" />
+    <Content Include="Assignment2Q3.aspx" />
     <Content Include="Assignments.aspx" />
     <Content Include="Web.config" />
     <Content Include="Assignment1Q1.aspx" />
@@ -97,6 +102,34 @@
     </Compile>
     <Compile Include="Assignment1Q4.aspx.designer.cs">
       <DependentUpon>Assignment1Q4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment2.aspx.cs">
+      <DependentUpon>Assignment2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment2.aspx.designer.cs">
+      <DependentUpon>Assignment2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment2Q1.aspx.cs">
+      <DependentUpon>Assignment2Q1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment2Q1.aspx.designer.cs">
+      <DependentUpon>Assignment2Q1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment2Q2.aspx.cs">
+      <DependentUpon>Assignment2Q2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment2Q2.aspx.designer.cs">
+      <DependentUpon>Assignment2Q2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment2Q3.aspx.cs">
+      <DependentUpon>Assignment2Q3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment2Q3.aspx.designer.cs">
+      <DependentUpon>Assignment2Q3.aspx</DependentUpon>
     </Compile>
     <Compile Include="Assignments.aspx.cs">
       <DependentUpon>Assignments.aspx</DependentUpon>
